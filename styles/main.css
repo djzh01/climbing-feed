@@ -115,8 +115,9 @@ section.container {
 .row {
     align-items: top;
 }
-.row > div{
+.row > section{
     display: inline-block;
+    margin: 0;
 }
 .col-1 {
     width: 8.33%;
