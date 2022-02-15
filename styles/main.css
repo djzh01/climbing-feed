@@ -46,3 +46,112 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+* {
+    box-sizing: border-box;
+}  
+nav li {
+    display: inline-block;
+}
+p {
+    padding: 0.5rem;
+}
+h1 {
+    font-size: 5rem;
+    padding-bottom: 0.5rem;
+}
+h2 {
+    padding-top: 0.5rem;
+}
+h3 {
+    font-size: 2rem;
+    padding: 0.5rem 0;
+}
+ul li{
+    padding: 1rem 1rem;
+}
+ul li:hover {
+    background-color: #a0a0a0
+}
+nav ul {
+    background-color: darkgray;
+}
+
+.container {
+    margin-bottom: 3rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+header.container {
+    margin-bottom: 0;
+}
+section.container {
+    padding-top: 0;
+}
+
+.copyright{
+    float: left;
+}
+.footer-cont{
+    margin: 1rem 4rem;
+}
+.banner h2{
+    font-size: 2rem;
+}
+.banner img{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+.exercise {
+    display:flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+.exercise img{
+    width: 100%;
+    height: 35vh;
+    object-fit: scale-down;
+}
+.row {
+    align-items: top;
+}
+.row > div{
+    display: inline-block;
+}
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.48%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33%;
+}
+.col-6 {
+    width: 47.8%;
+    margin: 1%;
+}
+.col-12 {
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    [class*="col-"] { /*apply to any element that contains col- in a class*/
+        width: 100%;
+    }  
+}
+
+@media only screen and (max-width: 992px) and (min-width: 769px){
+    .col-6{
+        width: 33.33%;
+    } 
+}

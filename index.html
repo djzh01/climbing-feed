@@ -9,79 +9,87 @@
          <meta name="description" content="Site containing climb exercises, rehabilitation, etc.">
          <meta name="keywords" content="climbing, climbing exercises, exercise, training, rehab, rehabilitation">   
          <title>Climbing Exercises</title>     
-         <link rel="stylesheet" type="text" href="styles/main.css">
+         <link rel="stylesheet" type="text/css" href="styles/main.css">
      </head>  
      <body>
-        <header>
+        <header class="container">
             <h1>Climbing Exercises</h1>
             <h3>Routines to improve your climbing</h3>
-            <nav>
+            <nav class="col-12 ">
                 <ul>
-                    <li>
+                    <li class="col-2">
                         <a href="index.html">Home</a>
-                    </li>
-                    <li>
+                    </li
+                    ><li class="col-2">
                         <a href="finger.html">Fingers</a>
-                    </li>
-                    <li>
+                    </li
+                    ><li class="col-2">
                         <a href="wrist.html">Wrists</a>
-                    </li>
-                    <li>
+                    </li
+                    ><li class="col-2">
                         <a href="shoulders.html">Shoulders</a>
-                    </li>
-                    <li>
+                    </li
+                    ><li class="col-2">
                         <a href="overhang.html">Overhangs</a>
-                    </li>
-                    <li>
+                    </li
+                    ><li class="col-2">
                         <a href="slab.html">Slabs</a>
                     </li>
                 </ul>
             </nav>
         </header>
-        <section>
+        <section class="container banner">
+            <img src="uva-climbing-center-charlottesville.jpg">
             <h2>General Strength Exercises</h2>
             <p>These exercises are go to for most climbers, and will improve general strength and performance</p>
-            <img src="uva-climbing-center-charlottesville.jpg">
         </section>
-        <section>
-            <h4><a href="finger.html">Repeaters</a></h4>
-            <p>Repeaters consist of quick cycles of hanging on a hangboard and resting. 
-                The most common protocol is the 7/3, which consist of 7 seconds on the 
-                hangboard and 3 seconds rest, repeated for 7 sets. This exercise can
-                combine various finger positions and is great for power endurance and 
-                finger strength.
-            </p>
-            <img src="hangboard.jpg">
-            <h4><a href="shoulders.html">Campusing</a></h4>
-            <p>
-                Campusing is many people's go-to pullup exercise. In some gyms, there is
-                a custom campus board, which allows measurable campus exercises. Some include 
-                ladders, which simply involves alternating your hands up the board with even
-                spacing. For example, 2-4-6-8 is a ladder which has each hand reach 2 bars above the
-                other until topping the board. Without a board, you can instead campus on a nice
-                route with good holds.
-            </p>
-            <img src="campus.jpg">
-            <h4><a href="slab.html">Silent Feet</a></h4>
-            <p>
-                Silent feet is typically a warm up exercise where the climber focuses on precise
-                footwork and making sure their feet are "silent" while climbing. That is, every
-                step is calculated and doesn't cause any noise. This is great for precision and technique, 
-                especially for slab climbs.
-            </p>
-            <img src="silentfeet.jpg">
-            <h4><a href="overhang.html">Front Levers</a></h4>
-            <p>
-                Front levers are advanced core exercises performed on a bar where the person holds themselves
-                horizontally on the bar isometrically. If this is too hard, a good alternative is a tuck lever,
-                which involves tucked legs to chest, instead of the standard straight body on a normal front lever.
-                Front levers are great core exercises, especially for overhang, where the route typically involves
-                strong core tension.
-            </p>
-            <img src="frontlever.jpg">
+        <section class="container row">
+            <div class="col-6 exercise">
+                <h4><a href="finger.html">Repeaters</a></h4>
+                <p>Repeaters consist of quick cycles of hanging on a hangboard and resting. 
+                    The most common protocol is the 7/3, which consist of 7 seconds on the 
+                    hangboard and 3 seconds rest, repeated for 7 sets. This exercise can
+                    combine various finger positions and is great for power endurance and 
+                    finger strength.
+                </p>
+                <img src="hangboard.jpg">
+            </div>
+            <div class="col-6 exercise">
+                <h4><a href="shoulders.html">Campusing</a></h4>
+                <p>
+                    Campusing is many people's go-to pullup exercise. In some gyms, there is
+                    a custom campus board, which allows measurable campus exercises. Some include 
+                    ladders, which simply involves alternating your hands up the board with even
+                    spacing. For example, 2-4-6-8 is a ladder which has each hand reach 2 bars above the
+                    other until topping the board. Without a board, you can instead campus on a nice
+                    route with good holds.
+                </p>
+                <img src="campus.jpg">
+            </div>
+            <div class="col-6 exercise">
+                <h4><a href="slab.html">Silent Feet</a></h4>
+                <p>
+                    Silent feet is typically a warm up exercise where the climber focuses on precise
+                    footwork and making sure their feet are "silent" while climbing. That is, every
+                    step is calculated and doesn't cause any noise. This is great for precision and technique, 
+                    especially for slab climbs.
+                </p>
+                <img src="silentfeet.jpg">
+            </div>
+            <div class="col-6 exercise">
+                <h4><a href="overhang.html">Front Levers</a></h4>
+                <p>
+                    Front levers are advanced core exercises performed on a bar where the person holds themselves
+                    horizontally on the bar isometrically. If this is too hard, a good alternative is a tuck lever,
+                    which involves tucked legs to chest, instead of the standard straight body on a normal front lever.
+                    Front levers are great core exercises, especially for overhang, where the route typically involves
+                    strong core tension.
+                </p>
+                <img src="frontlever.jpg">
+            </div>
         </section>
-        <footer>
-            <small>
+        <footer class="container footer-cont">
+            <small class="copyright">
                 © Daniel Zhao 2022
             </small>
         </footer>
